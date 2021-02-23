@@ -1,0 +1,16 @@
+{
+  "name": "debugando-a-vida",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RenanC4/debugando-a-vida",
+  "author": "Renan Campos <renanc433@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}

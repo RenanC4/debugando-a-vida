@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import MyAmpPage from '../components/header'
+import MainMenu from '../components/menu'
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -8,10 +8,7 @@ export default function Home() {
         <title>Debugando a vida</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <MyAmpPage />
-      <main className={styles.main}>
-        aaaa
-      </main>
+        <MainMenu/>
     </div>
   )
 }

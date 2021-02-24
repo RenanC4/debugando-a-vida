@@ -64,10 +64,13 @@
   padding-top: 15px;
   flex-direction: column;
 }
-.developer strong{
-  background-color: #EFD819;
-  font-size: 1.4rem;
-  font-weight: normal;
+.typeriter{
+  display: flex;
+
+}
+.typeriter strong{
+background-color:#efd819;
+font-weight: normal;
 }
 .contacts {
   padding-top: 20px;

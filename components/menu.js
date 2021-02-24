@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import Typewriter from 'typewriter-effect';
+
 import styles from '../styles/Menu.module.css'
 import Image from 'next/image'
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
@@ -24,7 +26,18 @@ function MainMenu() {
         </div>
       </div>
       <div className={styles.developer}>
-        <span>Desenvolvedor <strong>Javascript</strong></span>
+        <div className={styles.typeriter}>
+        <span>Desenvolvedor&nbsp;</span>
+        <strong>
+        <Typewriter
+          options={{
+            strings: ['Javascript', 'Node', 'React', 'React Native'],
+            autoStart: true,
+            loop: true,
+          }}
+        />
+        </strong>
+        </div>
         <div className={styles.contacts}>
             <FontAwesomeIcon icon={faGithub} className={styles.icon}/>         
               <a href="https://github.com/renanc4" target="blank">Github</a>

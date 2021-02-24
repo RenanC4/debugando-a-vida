@@ -10,6 +10,26 @@
   font-family: 'Fira Code', cursive;
   color:#363537;
 }
+.otherMenu {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  font-size: 1.3rem;
+  justify-content: space-between;
+  height: 120px;
+}
+
+.otherMenu span:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.selected{
+  text-decoration: underline;
+}
+.notSelected{
+  text-decoration: none;
+}
 
 .polaroid {
   background: #fff;

@@ -9,7 +9,15 @@
   width: 200px;
   height: 200px;
 }
-
+.container {
+  display: flex;
+}
+.content {
+  width: 69vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;

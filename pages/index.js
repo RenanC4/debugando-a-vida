@@ -17,7 +17,7 @@ export default function Home() {
        <MainMenu/>
       </div>
       <div className={styles.content}>
-        {routeName === 'Contact'&& <span>Contatos</span>}
+        {routeName === ''&& <span>Sobre mim</span>}
         {routeName === 'Projects'&& <span>Projetos</span>}
         {routeName === 'Articles'&& <span>Artigos</span>}
         {routeName === 'Uses'&& <span>Uses</span>}

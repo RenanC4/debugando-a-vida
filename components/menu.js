@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styles from '../styles/Menu.module.css'
 import Image from 'next/image'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {useRouteName} from '../components/menu.context'
 
@@ -25,13 +25,15 @@ function MainMenu() {
       </div>
       <div className={styles.developer}>
         <span>Desenvolvedor <strong>Javascript</strong></span>
-        <div className={styles.github}>
+        <div className={styles.contacts}>
             <FontAwesomeIcon icon={faGithub} className={styles.icon}/>         
               <a href="https://github.com/renanc4" target="blank">Github</a>
+              <FontAwesomeIcon icon={faLinkedin} className={styles.icon}/>         
+              <a href="https://www.linkedin.com/in/renancribeiro/" target="blank">Linkedin</a>
+              <FontAwesomeIcon icon={faInstagram} className={styles.icon}/>         
+              <a href="https://www.instagram.com/camp.renan/" target="blank">Instagram</a>
         </div>
         <div className={styles.otherMenu}>
-          <span className={routeName === 'Contact' ? styles.selected : styles.notSelected}
-                onClick={() => {setRouteName('Contact')}}>Contato</span>
           <span className={routeName === 'Projects' ? styles.selected : styles.notSelected}
                 onClick={() => {setRouteName('Projects')}}>Projetos</span>
           <span className={routeName === 'Articles' ? styles.selected : styles.notSelected}

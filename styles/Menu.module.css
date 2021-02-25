@@ -68,9 +68,21 @@
   display: flex;
 
 }
-.typeriter strong{
-background-color:#efd819;
-font-weight: normal;
+.js{
+  background-color:#efd819;
+  font-weight: normal;
+}
+.nodejs{
+  background-color:#609A5A;
+  font-weight: normal;
+}
+.reactjs{
+  background-color:#5ED3F3;
+  font-weight: normal;
+}
+.reactNative{
+  background-color:#25D2F5;
+  font-weight: normal;
 }
 .contacts {
   padding-top: 20px;

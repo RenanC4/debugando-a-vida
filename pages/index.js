@@ -2,6 +2,7 @@ import {useState} from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import MainMenu from '../components/menu'
+import About from '../pages/about/aboutMe'
 import {useRouteName} from '../components/menu.context'
 
 export default function Home() {
@@ -17,11 +18,10 @@ export default function Home() {
        <MainMenu/>
       </div>
       <div className={styles.content}>
-        {routeName === ''&& <span>Sobre mim</span>}
+        {routeName === ''&& <About/>}
         {routeName === 'Projects'&& <span>Projetos</span>}
         {routeName === 'Articles'&& <span>Artigos</span>}
         {routeName === 'Uses'&& <span>Uses</span>}
-
       </div>
     </div>
   )

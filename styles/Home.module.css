@@ -13,7 +13,6 @@
   display: flex;
 }
 .content {
-  width: 69vw;
   display: flex;
   justify-content: center;
   padding-top: 50px;

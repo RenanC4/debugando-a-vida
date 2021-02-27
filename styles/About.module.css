@@ -1,0 +1,34 @@
+.aboutMe {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
+}
+.aboutMe p {
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+.aboutMe span {
+  background-color: #EFD81D;
+}
+
+@media screen and (min-width: 900px) {
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.aboutMe p {
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+}

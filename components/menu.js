@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import Link from 'next/link'
 import Typewriter from 'typewriter-effect';
-import styles, {js, nodejs, reactjs, reactNative} from '../styles/Menu.module.css'
+import styles from '../styles/Menu.module.css'
 import Image from 'next/image'
 import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -29,17 +29,16 @@ function MainMenu() {
   
   return (
     <div className={styles.container}>
-
     <div className={styles.item}>
-        <div className={styles.polaroid}>
-          <Image 
-            src="/profileLight.jpg" 
-            alt="Picture of the author"
-            width={500}
-            height={500}
-          />
-          <span className={styles.caption}>Renan Campos</span>
-        </div>
+			<div className={styles.polaroid}>
+				<Image 
+					src="/profileLight.jpg" 
+					alt="Picture of the author"
+					width={500}
+					height={500}
+				/>
+				<span className={styles.caption}>Renan Campos</span>
+			</div>
       </div>
       <div className={styles.developer}>
         <div className={styles.typeriter}>
@@ -77,12 +76,12 @@ function MainMenu() {
         /></div>
         </div>
         <div className={styles.contacts}>
-            <FontAwesomeIcon icon={faGithub} className={styles.icon}/>         
-              <a href="https://github.com/renanc4" target="blank">Github</a>
-              <FontAwesomeIcon icon={faLinkedin} className={styles.icon}/>         
-              <a href="https://www.linkedin.com/in/renancribeiro/" target="blank">Linkedin</a>
-              <FontAwesomeIcon icon={faInstagram} className={styles.icon}/>         
-              <a href="https://www.instagram.com/camp.renan/" target="blank">Instagram</a>
+					<FontAwesomeIcon icon={faGithub} className={styles.icon}/>         
+						<a href="https://github.com/renanc4" target="blank">Github</a>
+						<FontAwesomeIcon icon={faLinkedin} className={styles.icon}/>         
+						<a href="https://www.linkedin.com/in/renancribeiro/" target="blank">Linkedin</a>
+						<FontAwesomeIcon icon={faInstagram} className={styles.icon}/>         
+						<a href="https://www.instagram.com/camp.renan/" target="blank">Instagram</a>
         </div>
         <div className={styles.otherMenu}>
           <span className={routeName === 'Projects' ? styles.selected : styles.notSelected}

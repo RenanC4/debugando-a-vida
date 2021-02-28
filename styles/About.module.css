@@ -29,4 +29,8 @@
   margin-left: 12rem;
   margin-right: 12rem;
 }
+.name {
+  font-family: 'Fira Code', cursive;
+  font-size: 1.5rem;
+}
 }

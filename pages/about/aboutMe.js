@@ -6,16 +6,16 @@ import styles from '../../styles/About.module.css'
 function About () {
   return (
     <div className={styles.aboutMe}>
-      <p>
-      Olá, eu sou o Renan e <span style={{backgroundColor:"#D9250F"}}>eu AMO tecnologia</span>,</p> 
+      <p className={styles.name}>
+        Olá, eu sou o Renan 
+      </p> 
       <p>Sou um Engenheiro de Software de Campinas, São Paulo 🇧🇷. 
       Tenho {moment().diff('1996-07-18', 'years',false)} anos e
-      trabalho a cerca de 3 anos com desenvolvimento Web e Mobile. Tenho um perfil T-shaped,
+      trabalho com desenvolvimento Web e Mobile. Tenho um perfil T-shaped,
       trabalho com serviços Cloud e sou certificado AWS Cloud Practitioner.
       </p>
       <p>
-      Eu uso principalmente  <span>Javascript</span>, HTML e CSS.<br/>
-      Atualmente trabalho com <span style={{backgroundColor: "#5ED3F3"}}>React</span>, <span style={{backgroundColor: "#8CDDF4"}}>React Native</span> e <span style={{backgroundColor:"#8CBF3D"}}>Node</span>.
+      Eu uso  <span>Javascript</span> para fazer tudo.<br/>
       </p>
       <p>Comecei a me interessar por tecnologia ainda quando criança, <ligth style={{
         textDecoration:"line-through",
@@ -25,9 +25,7 @@ function About () {
         quando ganhei um computador da minha mãe quando fiz 10 anos.
         Passava tardes jogando, desenhando no paint e fazendo animações em Flash.
       </p>
-      <p>Decidi estudar mais sobre computação quando sai do ensino medio, não sabia direito o que fazer na faculdade
-        e tinha um amigo meu que estudava TI na Escola Tecnica de São Paulo e falava muito bem do curso. Então me formei em TI e logo parti pra faculdade
-        de Análise e desenvolvimento de Sistemas no Instituto Federal de educação ciencia de São Paulo (IF pros mais chegados).
+      <p>Decidi estudar mais sobre computação quando terminei o ensino medio em 2013. Estudei TI na Escola Tecnica de São Paulo e Análise e desenvolvimento de Sistemas no Instituto Federal de educação ciencia de São Paulo (IF pros mais chegados).
         Durante o primeiro semestre da faculdade comecei a fazer alguns projetos para amigos e familiares, foram meus primeiros freelas,
         pequenos sistemas e sites que me ajudavam a comprar o lanche na hora do intervalo.
       </p>
@@ -39,15 +37,12 @@ function About () {
       </p>
       <p>Se quiser saber mais sobre minha carreira, veja meu perfil no <a href="https://www.linkedin.com/in/renancribeiro/" target="blank">LinkedIN</a></p>
       <p>Eu moro na única metropole brasileira que não é uma capital. Campinas é a cidade que escolhi pra viver,
-        tem vida noturna, tem lagoa, te acelerador de particulas, tem a Unicamp, tem observatório, tem até lugar pra fazer trilha e respirar ar puro. 
+        tem vida noturna, a lagoa do taquaral, o acelerador de particulas, a Unicamp, o observatório, tem até lugar pra fazer trilha e respirar ar puro. 
         Da minha janela vejo o colégio Culto a ciencia, notorio por ter tido um aluno ilustre, Alberto Santos Dumont, ele mesmo,
         o pai da aviação.
       </p>
       <p>
-        Tenho alguns hobbies,
-        Como Jogar video game, que já são o ápice do storyteling que a humanidade chegou,
-        tem roteiro, desenho, atuação, trilha sonora e voce ainda interage, vive a historia 
-        que está sendo contada. Jogos ja deixaram de ser apenas jogos.
+        Gosto de jogar video game.
       </p>
       <p>Também sou <light style={{
         textDecoration:"line-through",

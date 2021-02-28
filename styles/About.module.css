@@ -22,12 +22,10 @@
   flex-direction: column;
   flex-wrap: wrap-reverse;
   justify-content: center;
-  margin-top: 5rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
 }
 
 .aboutMe p {
+  font-family: 'Fira Code', cursive;
   margin-left: 12rem;
   margin-right: 12rem;
 }

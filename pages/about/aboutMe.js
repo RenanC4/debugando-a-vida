@@ -7,7 +7,7 @@ function About () {
   return (
     <div className={styles.aboutMe}>
       <p className={styles.name}>
-        Olá, eu sou o Renan 
+        Olá, eu sou o Renan. 
       </p> 
       <p>Sou um Engenheiro de Software de Campinas, São Paulo 🇧🇷. 
       Tenho {moment().diff('1996-07-18', 'years',false)} anos e

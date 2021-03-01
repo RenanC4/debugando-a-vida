@@ -3,6 +3,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import MainMenu from '../components/menu'
 import About from '../pages/about/aboutMe'
+import Projects from '../pages/projects/projects'
 import {useRouteName} from '../components/menu.context'
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
       </div>
       <div className={styles.content}>
         {routeName === ''&& <About/>}
-        {routeName === 'Projects'&& <span>Projetos</span>}
+        {routeName === 'Projects'&& <Projects/>}
         {routeName === 'Articles'&& <span>Artigos</span>}
         {routeName === 'Uses'&& <span>Uses</span>}
       </div>

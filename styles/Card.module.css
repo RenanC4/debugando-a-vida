@@ -8,34 +8,54 @@
   border-radius: 5px;
   border-width: 1px;
   border-color: #000;
+  font-family: 'Fira Code', cursive;
+  margin: 15px 15px ;
 }
 .buttons{
   display: flex;
   justify-content: space-between;
   min-width: 100%;
-  height: 5vh;
+  height: 4vh;  
 }
 .git {
-  background-color: chartreuse;
+  color: #333;
   min-width: 50%;
+  border-radius: 0 0 0 3px;
+  border-width: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
 }
-.open {
-  background-color: chocolate;
-  min-width: 50%;
+.git:hover{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #333;
 }
 
+.icon {
+  width: 20px;
+  padding-right: 12px;
+}
+.open {
+  background-color: #3698D2;
+  color: #fff;
+  min-width: 50%;
+  border-radius: 0 0 3px 0 ;
+  border-width: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.open:hover{
+  cursor: pointer;
+  font-size: 1.2rem;
+  background-color: #489fd1;
+
+}
 .content {
   flex-grow: 1;
   min-width: 25vw;
-}
-
-@media (max-width: 600px) {
-  .container {
-    min-width: 80vw;
-    min-height: 25vh;
-    border-style: solid;
-    border-radius: 5px;
-    border-width: 3px;
-    border-color: #BDF7FD;
-  }
 }

@@ -58,4 +58,7 @@
 .content {
   flex-grow: 1;
   min-width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

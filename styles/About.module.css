@@ -13,24 +13,27 @@
   margin-right: 0rem;
 }
 .aboutMe span {
-  background-color: #EFD81D;
+  background-color: #efd81d;
+}
+.aboutMe a {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 900px) {
-.aboutMe {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap-reverse;
-  justify-content: center;
-}
+  .aboutMe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
 
-.aboutMe p {
-  font-family: 'Fira Code', cursive;
-  margin-left: 12rem;
-  margin-right: 12rem;
-}
-.name {
-  font-family: 'Fira Code', cursive;
-  font-size: 1.5rem;
-}
+  .aboutMe p {
+    font-family: "Fira Code", cursive;
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+  .name {
+    font-family: "Fira Code", cursive;
+    font-size: 1.5rem;
+  }
 }

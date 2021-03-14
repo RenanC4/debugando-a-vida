@@ -1,6 +1,6 @@
 import Card from "../../components/card/card";
 import styles from "../../styles/Projects.module.css";
-
+import React, { memo } from "react";
 function Projects() {
   return (
     <div className={styles.container}>
@@ -26,4 +26,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default memo(Projects);

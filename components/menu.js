@@ -113,35 +113,22 @@ function MainMenu() {
           </a>
         </div>
         <div className={styles.otherMenu}>
-          <span
-            className={
-              routeName === "Projects" ? styles.selected : styles.notSelected
-            }
-            onClick={() => {
-              setRouteName("Projects");
-            }}
-          >
+          <span>
+          <a href="https://github.com/renanc4" target="blank">
             Projetos
+          </a>
           </span>
-          <span
-            className={
-              routeName === "Articles" ? styles.selected : styles.notSelected
-            }
-            onClick={() => {
-              setRouteName("Articles");
-            }}
-          >
+          <span>
+          <a href="https://medium.com/@renanc433" target="blank">
             Artigos
+          </a>
+            
           </span>
-          <span
-            className={
-              routeName === "Uses" ? styles.selected : styles.notSelected
-            }
-            onClick={() => {
-              setRouteName("Uses");
-            }}
-          >
-            /uses
+          <span>
+          <a href="mailto:renanc433@gmail.com" target="blank">
+          Contato
+        </a>
+            
           </span>
         </div>
       </div>

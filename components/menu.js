@@ -114,21 +114,19 @@ function MainMenu() {
         </div>
         <div className={styles.otherMenu}>
           <span>
-          <a href="https://github.com/renanc4" target="blank">
-            Projetos
-          </a>
+            <a href="https://github.com/renanc4" target="blank">
+              Projetos
+            </a>
           </span>
           <span>
-          <a href="https://medium.com/@renanc433" target="blank">
-            Artigos
-          </a>
-            
+            <a href="https://medium.com/@renanc433" target="blank">
+              Artigos
+            </a>
           </span>
           <span>
-          <a href="mailto:renanc433@gmail.com" target="blank">
-          Contato
-        </a>
-            
+            <a href="mailto:renanc433@gmail.com" target="blank">
+              Contato
+            </a>
           </span>
         </div>
       </div>

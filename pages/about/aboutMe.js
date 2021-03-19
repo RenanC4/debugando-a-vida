@@ -22,7 +22,7 @@ function About() {
         TDD para o desenvolvimento.
       </p>
       <p>
-        Eu uso <span>Javascript</span> para fazer tudo!
+        Eu uso <span>Programação</span> para resolver tudo!
       </p>
     </div>
   );

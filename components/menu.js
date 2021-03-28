@@ -35,7 +35,7 @@ function MainMenu() {
       <div className={styles.item}>
         <div className={styles.polaroid}>
           <Image
-            src="/profileLight.jpg"
+            src="/profileLight.jfif"
             alt="Picture of the author"
             width={400}
             height={500}

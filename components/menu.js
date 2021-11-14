@@ -56,42 +56,24 @@ function MainMenu() {
           <span>Desenvolvedor&nbsp;</span>
           <div
             className={
-              style === 1
-                ? styles.js
-                : style === 2
-                ? styles.nodejs
-                : style === 3
-                ? styles.reactjs
-                : styles.reactNative
+              styles.js
             }
           >
             <Typewriter
               options={{ loop: true }}
               onInit={(typewriter) => {
                 typewriter
-                  .typeString("Javascript")
+                  .typeString("Clojure")
                   .pauseFor(2500)
                   .deleteAll()
                   .callFunction(() => {
                     teste(1);
                   })
-                  .typeString("Node")
+                  .typeString("Flutter")
                   .pauseFor(2500)
                   .deleteAll()
                   .callFunction(() => {
                     teste(2);
-                  })
-                  .typeString("React")
-                  .pauseFor(2500)
-                  .deleteAll()
-                  .callFunction(() => {
-                    teste(3);
-                  })
-                  .typeString("React Native")
-                  .pauseFor(2500)
-                  .deleteAll()
-                  .callFunction(() => {
-                    teste(4);
                   })
                   .start();
               }}
@@ -108,7 +90,7 @@ function MainMenu() {
             Linkedin
           </a>
           <FontAwesomeIcon icon={faInstagram} className={styles.icon} />
-          <a href="https://www.instagram.com/camp.renan/" target="blank">
+          <a href="https://www.instagram.com/non_recursive/" target="blank">
             Instagram
           </a>
         </div>

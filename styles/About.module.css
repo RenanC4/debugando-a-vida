@@ -18,6 +18,12 @@
 .aboutMe a {
   text-decoration: underline;
 }
+.aboutMe a span{
+background-color: #820ad1;
+color: #fff;
+font-weight: bolder;
+}
+
 
 @media screen and (min-width: 900px) {
   .aboutMe {
@@ -25,6 +31,7 @@
     flex-direction: column;
     flex-wrap: wrap-reverse;
     justify-content: center;
+    color: #fff;
   }
 
   .aboutMe p {
